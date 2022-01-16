@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{C601C39C-AE39-4A2D-8AA5-B6A9A0835B41}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl;F90">
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\basis.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\dft.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\dftfunc.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\ecp.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\ecpder.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\ecpfunc.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\fileio.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\geom.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\grad1.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\grad2.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\gradient.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\guess.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int1.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int2.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int2elec.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int2sp.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int2spd1.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int2spd2.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int2spd3.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\int2spd4.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\lebedev.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\machine.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\main.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\math.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\memory.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\module.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\modulefmt.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\modulerys.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\mp2.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\mp2grad.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\parallel.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\rysquad.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\scf.F90"/>
+		<File RelativePath="..\..\..\..\Documents\DEV\smash-develop-2.3.0\src\scflib.F90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
